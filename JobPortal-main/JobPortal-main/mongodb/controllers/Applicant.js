@@ -109,7 +109,7 @@ exports.Applicant_login = function (req, res) {
             {
                     return res
                     .status(400)
-                    .json({ passwordincorrect: "Password incorrect" });
+                    .json({ passwordincorrect: "Password Incorrect" });
             }
                 //res.redirect("http://localhost:3000/");
         });
